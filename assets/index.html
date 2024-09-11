@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="logo-wrapper">
+      <h1>
+        <img src="./assets/svg/logo.svg" height="100px" />The ODIN Project
+      </h1>
+    </div>
+    <div class="signin-wrapper">
+      <div class="user-wrapper">
+        <form action="/sign-up">
+          <section>
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" />
+            <label for="last-name">Last name</label>
+            <input type="text" name="last-name" />
+          </section>
+          <section class="auth-wrapper">
+            <label for="email">Email</label>
+            <input type="email" name="email" />
+            <label for="phone-number">Phone number</label>
+            <input type="number" name="phone-number" id="phone-number" />
+          </section>
+          <section class="pass-wrapper">
+            <label for="password">Password</label>
+            <input type="password" name="password" required />
+            <label for="confirm-password">Confirm password</label>
+            <input type="password" name="-confirm-password" required />
+          </section>
+        </form>
+        <p>
+          <button type="submit">Submit!</button>Already have an account?
+          <a href="/login">Login.</a>
+        </p>
+      </div>
+      <h1>Hello World!</h1>
+    </div>
+  </body>
+</html>

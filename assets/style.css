@@ -1,0 +1,16 @@
+body {
+    display: flex;
+  }
+  
+  .logo-wrapper {
+    height: 100vh;
+    width: 35vw;
+  }
+  .signin-wrapper {
+    height: 100vh;
+    width: calc(100% - 35vw);
+  }
+  div {
+    border: 1px solid red;
+  }
+  
