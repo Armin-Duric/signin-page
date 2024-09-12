@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Nordic";
+  src: url("./assets/fonts/Adhiguno-Regular.otf") format("truetype");
+  font-family: "Lovan";
+  src: url("./assets/fonts/Akatab-Regular.ttf");
+}
 .container {
   display: flex;
   flex-direction: row;
+  font-family: "Lovan", sans-serif;
 }
 
 .logo-wrapper {
@@ -8,6 +15,7 @@
   width: 35vw;
   background-image: url("https://images.unsplash.com/photo-1726013646985-ef31b9471032?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
+  font-family: "Nordic", sans-serif;
 }
 .login-wrapper {
   height: 100vh;
@@ -27,16 +35,15 @@
 }
 h1 {
   position: absolute;
-  top: 25vh;
+  top: 22.5vh;
   left: 5%;
-  font-size: 40px;
+  font-size: 60px;
 }
 h2 {
-  font-size: 30px;
-  padding: 0px;
+  font-size: 25px;
 }
 .description {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bolder;
   padding: 7%;
 }
@@ -53,7 +60,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  gap: 20px;
+  gap: 15px;
 }
 section {
   display: grid;
@@ -62,26 +69,26 @@ section {
 }
 input {
   width: 60%;
-  height: 35px;
-  border: 2px solid rgb(21, 255, 0);
+  height: 30px;
+  border: 2px solid rgb(202, 209, 202);
   border-radius: 5px;
   font-size: 15px;
 }
 label {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
 }
 input:invalid {
   border: 2px solid red;
 }
 .login-opt {
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 3%;
   margin-top: 0;
 }
 button {
   margin: 3%;
-  height: 50px;
+  height: 40px;
   border: none;
   border-radius: 7px;
   background-color: rgb(20, 88, 10);
