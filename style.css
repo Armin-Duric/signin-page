@@ -14,7 +14,6 @@
   width: calc(100vw - 35vw);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   background-color: rgb(240, 237, 233);
 }
 div {
@@ -42,9 +41,7 @@ h2 {
 .description {
   font-size: 25px;
   font-weight: bolder;
-  padding: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 7%;
 }
 img {
   position: relative;
@@ -54,7 +51,7 @@ img {
 form {
   background-color: white;
   border-bottom: 5px solid rgb(221, 218, 218);
-  height: 45vh;
+  height: 40vh;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -82,9 +79,11 @@ input:invalid {
 }
 .login-opt {
   font-size: 25px;
+  margin-left: 3%;
+  margin-top: 0;
 }
 button {
-  margin: 0;
+  margin: 3%;
   height: 50px;
   border: none;
   border-radius: 7px;
