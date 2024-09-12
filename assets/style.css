@@ -1,16 +1,40 @@
-body {
-    display: flex;
-  }
-  
-  .logo-wrapper {
-    height: 100vh;
-    width: 35vw;
-  }
-  .signin-wrapper {
-    height: 100vh;
-    width: calc(100% - 35vw);
-  }
-  div {
-    border: 1px solid red;
-  }
-  
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-wrapper {
+  height: 100vh;
+  width: 35vw;
+  background-image: url("https://images.unsplash.com/photo-1726013646985-ef31b9471032?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+.login-wrapper {
+  height: 100vh;
+  width: calc(100vw - 35vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(240, 237, 233);
+}
+div {
+  border: 1px solid red;
+}
+.logo-bg {
+  position: relative;
+  top: 25vh;
+  bottom: auto;
+  width: 100%;
+  background-color: rgb(119, 116, 116);
+  opacity: 0.3;
+  height: 130px;
+}
+h1 {
+  position: absolute;
+  top: 25vh;
+  left: 5%;
+}
+form {
+  background-color: white;
+  border-bottom: 5px solid rgb(221, 218, 218);
+}
