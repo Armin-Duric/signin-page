@@ -16,9 +16,6 @@
   flex-direction: column;
   background-color: rgb(240, 237, 233);
 }
-div {
-  border: 1px solid red;
-}
 .logo-bg {
   position: relative;
   top: 25vh;
