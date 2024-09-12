@@ -1,13 +1,14 @@
 @font-face {
   font-family: "Nordic";
   src: url("./assets/fonts/Adhiguno-Regular.otf") format("truetype");
-  font-family: "Lovan";
-  src: url("./assets/fonts/Akatab-Regular.ttf");
+}
+@font-face {
+  font-family: "Aktab";
+  src: url(./assets/fonts/Akatab-Regular.ttf);
 }
 .container {
   display: flex;
   flex-direction: row;
-  font-family: "Lovan", sans-serif;
 }
 
 .logo-wrapper {
@@ -17,12 +18,13 @@
   background-size: cover;
   font-family: "Nordic", sans-serif;
 }
-.login-wrapper {
+.signin-wrapper {
   height: 100vh;
   width: calc(100vw - 35vw);
   display: flex;
   flex-direction: column;
   background-color: rgb(240, 237, 233);
+  font-family: "Aktab", sans-serif;
 }
 .logo-bg {
   position: relative;
